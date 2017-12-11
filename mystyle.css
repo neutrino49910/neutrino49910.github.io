@@ -1,0 +1,52 @@
+#header {
+	margin: auto;
+	width: 50%;
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+	background-color: white; 
+	position: relative;
+	z-index: 1;
+}
+
+
+#left-column{
+	width: 30%;
+	background-color: lightgray;
+	float: left;
+	padding: 10px;
+	padding-top: 150px;
+	position: relative;
+	bottom: 150px;
+}
+
+#right-column {
+	width: 60%;
+	float: left;
+	padding: 10px;
+	position: relative;
+	bottom: 150px;
+	padding-top: 150px;
+	padding-right: 20px;
+	}
+body{
+	font-family: helvetica, "roboto", "open snans", avenir LT pro regular, sans-serif;
+	margin: 50px;
+}
+h1, h2 {
+	text-transform: uppercase;
+}
+h2 {
+    border-bottom: 2px solid black;
+}
+
+h3 {
+	font-style: italic;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media (max-width: 600px) {
+	#left-column, #right-column {
+		width: 100%;
+	}
+}
